@@ -1,0 +1,33 @@
+# Environment files and local credentials
+.env
+.env.*
+!.env.example
+*auth*.json
+*credential*.json
+client.json
+client_secret*.json
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Virtual environments and installed libraries
+.venv/
+venv/
+env/
+ENV/
+libs/
+lib/
+site-packages/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor settings
+.vscode/
